@@ -1,6 +1,4 @@
-# Teste de programação InteliTrader
-
-O professor **Sérgio Luiz Banin** disponibilizou os problemas utilizados em sala de aula na Faculdade de Tecnologia de São Caetano do Sul.
+# Teste Técnico InteliTrader
 
 ## Contexto
 
@@ -55,12 +53,12 @@ O resultado que se espera deste programa é a produção de um arquivo de saída
 Necessidade de Transferência Armazém para CO
 
 Produto	QtCO	QtMin	QtVendas	Estq.após	Necess.	Transf. de
-									Vendas				Arm p/ CO
-16320	344		200		128			216			0		0
-23400	1435	500		937			498			2		10
-26440	2899	800		239			2660		0		0
-28790	310		150		245			65			85		85
-36540	431		100		617			-186		286		286
+					Vendas			Arm p/ CO
+16320	344	200	128		216		0		0
+23400	1435	500	937		498		2		10
+26440	2899	800	239		2660		0		0
+28790	310	150	245		65		85		85
+36540	431	100	617		-186		286		286
 ...
 ```
 
@@ -98,8 +96,8 @@ Lembrar que apenas as vendas com situação 100 ou 102 devem ser consideradas.
 ```
 Quantidades de Vendas por canal
 
-1 - Representantes			624
-2 - Website					873
+1 - Representantes		624
+2 - Website			873
 3 - App móvel Android		582
 4 - App móvel iPhone		88
 ```
@@ -122,3 +120,6 @@ Quantidades de Vendas por canal
     - Commandos para executar:
         - Windows: ```EstoqueOperacional.exe "../Caso de teste 1/c1_vendas.txt" "../Caso de teste 1/c1_produtos.txt"```
         - Linux: ```dotnet EstoqueOperacional.dll "../Caso de teste 1/c1_vendas.txt" "../Caso de teste 1/c1_produtos.txt"```
+
+### Agradecimentos
+Agradecimentos ao professor **Sérgio Luiz Banin** que disponibilizou os problemas utilizados em sala de aula na Faculdade de Tecnologia de São Caetano do Sul.
