@@ -88,7 +88,8 @@ divergência deve-se gravar o número da linha do arquivo e a mensagem conforme 
 
 3\.
 
-**Tarefa Bônus**
+**Relatório por canais**
+
 Grave um terceiro arquivo, com quantidades totais vendidas por canal de vendas, no formato mostrado abaixo. Este arquivo
 deve ter o nome TOTCANAIS.TXT.
 Lembrar que apenas as vendas com situação 100 ou 102 devem ser consideradas.
