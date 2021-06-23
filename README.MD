@@ -107,14 +107,18 @@ Quantidades de Vendas por canal
 **Recursos Fornecidos**
 
 1. Pasta "Caso de teste 1" contendo
-
-Arquivos de Entrada: C1_PRODUTOS.TXT e C1_VENDAS.TXT
-
-Arquivos de Saída: C1_TRANSFERE.TXT, C1_DIVERGENCIAS.TXT e C1_TOTCANAIS.TXT
+    - Arquivos de Entrada: C1_PRODUTOS.TXT e C1_VENDAS.TXT
+    - Arquivos de Saída: C1_TRANSFERE.TXT, C1_DIVERGENCIAS.TXT e C1_TOTCANAIS.TXT
 
 
 2. Pasta "Caso de teste 2" contendo
+    - Arquivos de Entrada: C2_PRODUTOS.TXT e C2_VENDAS.TXT
+    - Arquivos de Saída: C2_TRANSFERE.TXT, C2_DIVERGENCIAS.TXT e C2_TOTCANAIS.TXT
 
-Arquivos de Entrada: C2_PRODUTOS.TXT e C2_VENDAS.TXT
 
-Arquivos de Saída: C2_TRANSFERE.TXT, C2_DIVERGENCIAS.TXT e C2_TOTCANAIS.TXT
+3. Pasta "Aplicação" contendo
+    - Binários de exemplo de execução.
+        - Dependencias: .Net 5.0 Runtime (download: https://dotnet.microsoft.com/download/dotnet/5.0)
+    - Commandos para executar:
+        - Windows: ```EstoqueOperacional.exe "../Caso de teste 1/c1_vendas.txt" "../Caso de teste 1/c1_produtos.txt"```
+        - Linux: ```dotnet EstoqueOperacional.dll "../Caso de teste 1/c1_vendas.txt" "../Caso de teste 1/c1_produtos.txt"```
